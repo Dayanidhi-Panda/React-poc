@@ -11,12 +11,13 @@ import { Postlist } from './Httpcomponent/Postlist';
 import { Statehook } from './Hooks/Statehook';
 import Hookincrementdecrement from './Hooks/Hookincrementdecrement';
 import UsestateHookwithobject from './Hooks/UsestateHookwithobject';
+import UsestateHookwithArray from './Hooks/UsestateHookwithArray';
 
 function App() {
   return (
     <div className="App">
       <Greet name="Dayanidhi" age="18"/>
-      <Greet name= "sabitarani" age="20"/>
+      {/* <Greet name= "sabitarani" age="20"/>
       <Welcome name="Dayanidhi" age="18"/>
       <Welcome name= "sabitarani" age="20"/>
       <Message />
@@ -27,7 +28,8 @@ function App() {
        <Postlist />
       <Statehook />
       <Hookincrementdecrement />
-      <UsestateHookwithobject />
+      <UsestateHookwithobject /> */}
+      <UsestateHookwithArray name="Dayanidhi"/>
     </div>
   );
 }
